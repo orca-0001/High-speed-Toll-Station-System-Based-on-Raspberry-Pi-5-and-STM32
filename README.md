@@ -4,6 +4,10 @@
 # 该项目是参考Lan Huong作者的开源项目制作的，链接如下
 https://github.com/l4hu/Car-Park-License-Plate-Recognition-System
 
+# 演示视频
+https://b23.tv/P5Sw77Q
+
+
 # 主要功能
 
 1. 通过光敏传感器检测车辆；
