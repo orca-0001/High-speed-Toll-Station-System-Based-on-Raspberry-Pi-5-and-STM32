@@ -1,0 +1,48 @@
+2025-06-18 21:44:51,031 - CarParkSystem - INFO - Starting Car Park System
+2025-06-18 21:44:51,032 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA0
+2025-06-18 21:44:51,048 - CarParkSystem - INFO - Connected to database successfully
+2025-06-18 21:44:51,199 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-18 21:44:53,052 - CarParkSystem - INFO - System initialized and ready
+2025-06-18 21:44:53,053 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-18 21:44:53,053 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-18 21:44:53,053 - CarParkSystem - INFO - Starting main system logic
+2025-06-18 21:45:35,298 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:45:39,248 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:45:42,364 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:45:43,829 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:45:49,950 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:45:51,293 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:45:55,809 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:45:57,175 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:46:05,188 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:46:06,600 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:46:21,628 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:46:22,859 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:46:28,674 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:46:29,903 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:46:35,316 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:46:36,539 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:47:10,473 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:47:13,513 - CarParkSystem - INFO - Plate 浙G·00001: Exact match found
+2025-06-18 21:50:12,308 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:50:14,133 - CarParkSystem - INFO - Plate 1000099: No match found
+2025-06-18 21:50:18,947 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:50:21,118 - CarParkSystem - INFO - Plate 浙G·00001: Exact match found
+2025-06-18 21:52:04,848 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:52:06,665 - CarParkSystem - INFO - Plate BC6T009: No match found
+2025-06-18 21:52:16,083 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:52:17,844 - CarParkSystem - INFO - Plate 6001908: No match found
+2025-06-18 21:52:37,068 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:52:39,327 - CarParkSystem - INFO - Plate 桂C·GT009: No match found
+2025-06-18 21:52:45,540 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:52:47,330 - CarParkSystem - INFO - Plate C61009: No match found
+2025-06-18 21:52:53,048 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:52:54,946 - CarParkSystem - INFO - Plate 桂C·GT009: No match found
+2025-06-18 21:53:00,258 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:53:02,053 - CarParkSystem - INFO - Plate CGTO09: No match found
+2025-06-18 21:53:13,678 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:53:15,236 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 21:53:37,275 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:53:39,029 - CarParkSystem - INFO - Plate 1215888: No match found
+2025-06-18 21:54:01,357 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 21:54:03,114 - CarParkSystem - INFO - Plate 浙G·00001: Exact match found

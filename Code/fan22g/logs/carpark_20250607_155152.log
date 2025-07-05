@@ -1,0 +1,19 @@
+2025-06-07 15:51:53,114 - CarParkSystem - CRITICAL - Fatal error: Unknown argument: rec
+Traceback (most recent call last):
+  File "/home/pi/fan/main.py", line 248, in <module>
+    car_park_system = CarParkSystem()
+                      ^^^^^^^^^^^^^^^
+  File "/home/pi/fan/main.py", line 47, in __init__
+    self.ocr = OCRReader()
+               ^^^^^^^^^^^
+  File "/home/pi/fan/ocr_reader.py", line 8, in __init__
+    self.ocr=PaddleOCR(use_angle_cls=use_angle_cls,lang=lang,det=det,rec=rec,use_gpu=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.11/site-packages/paddleocr/_pipelines/ocr.py", line 161, in __init__
+    super().__init__(**base_params)
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.11/site-packages/paddleocr/_pipelines/base.py", line 59, in __init__
+    self._common_args = parse_common_args(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.11/site-packages/paddleocr/_common_args.py", line 43, in parse_common_args
+    raise ValueError(f"Unknown argument: {name}")
+ValueError: Unknown argument: rec

@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}首页 - 智行高速系统{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="mb-4">系统首页</h1>
+    </div>
+</div>
+
+<div class="row">
+    <!-- System Statistics -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">系统统计</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>已注册车牌总数:</h5>
+                    <span class="badge bg-primary rounded-pill fs-5">{{ plate_count }}</span>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>今日进入车辆:</h5>
+                    <span class="badge bg-info rounded-pill fs-5">{{ today_entries }}</span>
+                </div>
+                
+                <hr>
+                
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>系统状态:</h5>
+                    <span class="badge bg-success rounded-pill fs-5">在线</span>
+                </div>
+                
+                <hr>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                    <h5>最近更新:</h5>
+                    <span>{{ now.strftime('%Y-%m-%d %H:%M:%S') }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quick Actions -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0">一键跳转</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a href="{{ url_for('add_plate') }}" class="btn btn-outline-primary">
+                        <i class="bi bi-plus-circle"></i> 添加新车牌
+                    </a>
+                    
+                    <a href="{{ url_for('list_plates') }}" class="btn btn-outline-secondary">
+                        <i class="bi bi-card-list"></i> 查看所有车牌
+                    </a>
+                    
+                    <a href="{{ url_for('view_logs') }}" class="btn btn-outline-info">
+                        <i class="bi bi-clock-history"></i> 查看活动日志
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Activity -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5 class="mb-0">最近活动</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>车牌号码</th>
+                                <th>操作</th>
+                                <th>时间</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if recent_activity %}
+                                {% for entry in recent_activity %}
+                                <tr>
+                                    <td>{{ entry.plate_number }}</td>
+                                    <td>
+                                        {% if entry.action == 'ACCESS_GRANTED' %}
+                                        <span class="badge bg-success">允许进入</span>
+                                        {% elif entry.action == 'ACCESS_DENIED' %}
+                                        <span class="badge bg-danger">禁止通行</span>
+                                        {% else %}
+                                        <span class="badge bg-warning text-dark">{{ entry.action }}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>{{ entry.timestamp }}</td>
+                                </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td colspan="3" class="text-center">暂无最近活动</td>
+                                </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+{% endblock %}

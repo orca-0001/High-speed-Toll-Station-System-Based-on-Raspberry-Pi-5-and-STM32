@@ -1,0 +1,95 @@
+2025-06-16 22:02:10,713 - CarParkSystem - INFO - Starting Car Park System
+2025-06-16 22:02:10,713 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA0
+2025-06-16 22:02:10,715 - CarParkSystem - INFO - Connected to database successfully
+2025-06-16 22:02:10,854 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-16 22:02:12,718 - CarParkSystem - INFO - System initialized and ready
+2025-06-16 22:02:12,718 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-16 22:02:12,718 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-16 22:02:12,718 - CarParkSystem - INFO - Starting main system logic
+2025-06-16 22:02:40,190 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:02:42,271 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:02:42,282 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:02:48,186 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:02:49,855 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:02:49,866 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:02:52,664 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:02:54,196 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:02:54,209 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:02:56,427 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:02:57,766 - CarParkSystem - INFO - Plate 皖KR9888: No match found
+2025-06-16 22:02:57,801 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:00,029 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:01,479 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:01,483 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:02,048 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:02,883 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:02,895 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:04,171 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:04,979 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:04,988 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:07,925 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:09,265 - CarParkSystem - INFO - Plate KR9888: No match found
+2025-06-16 22:03:09,273 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:10,413 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:12,058 - CarParkSystem - INFO - Plate FKR9888: No match found
+2025-06-16 22:03:12,063 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:15,594 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:16,607 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:16,615 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:24,288 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:25,165 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:25,172 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:28,724 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:29,567 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:29,572 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:32,527 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:33,476 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:33,486 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:35,302 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:36,599 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:36,607 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:38,675 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:39,446 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:39,452 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:41,333 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:42,128 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:42,135 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:47,194 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:48,003 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:48,010 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:03:50,045 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:03:51,204 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:03:51,277 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:01,125 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:01,984 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:04:01,992 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:03,478 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:04,330 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:04:04,337 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:07,470 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:08,871 - CarParkSystem - INFO - Plate ·15888: No match found
+2025-06-16 22:04:08,875 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:13,124 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:14,444 - CarParkSystem - INFO - Plate 冀T·15888: No match found
+2025-06-16 22:04:14,449 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:17,816 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:18,643 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-16 22:04:18,652 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:28,898 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:30,181 - CarParkSystem - INFO - Plate 浙G·00001: No match found
+2025-06-16 22:04:30,188 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:36,587 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:37,863 - CarParkSystem - INFO - Plate 浙G·00001: No match found
+2025-06-16 22:04:37,871 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:46,679 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:48,336 - CarParkSystem - INFO - Plate 桂C·GT009: No match found
+2025-06-16 22:04:48,344 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:04:58,052 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:04:59,328 - CarParkSystem - INFO - Plate 沪K·R9888: No match found
+2025-06-16 22:04:59,335 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:05:03,874 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:05:05,092 - CarParkSystem - INFO - Plate EKR9888: No match found
+2025-06-16 22:05:05,099 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 22:05:11,506 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 22:05:12,827 - CarParkSystem - INFO - Plate 冀T·15888: No match found
+2025-06-16 22:05:12,834 - CarParkSystem - INFO - Manual detection completed

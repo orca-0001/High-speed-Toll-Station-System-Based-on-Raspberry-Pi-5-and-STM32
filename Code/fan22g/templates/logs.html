@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}活动日志 - 智行高速系统{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>活动日志</h1>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+        <i class="bi bi-speedometer2"></i> 返回首页
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-header bg-info text-white">
+        <h5 class="mb-0">进出记录</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>车牌号码</th>
+                        <th>操作</th>
+                        <th>时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if logs %}
+                        {% for log in logs %}
+                        <tr>
+                            <td>{{ log.id }}</td>
+                            <td>{{ log.plate_number }}</td>
+                            <td>
+                                {% if log.action == 'ACCESS_GRANTED' %}
+                                <span class="badge bg-success">允许进入</span>
+                                {% elif log.action == 'ACCESS_DENIED' %}
+                                <span class="badge bg-danger">禁止通行</span>
+                                {% elif log.action == 'PLATE_NOT_RECOGNIZED' %}
+                                <span class="badge bg-warning text-dark">未识别车牌</span>
+                                {% else %}
+                                <span class="badge bg-secondary">{{ log.action }}</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ log.timestamp }}</td>
+                        </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="4" class="text-center">未找到活动日志</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card-footer text-muted">
+        <small>显示100条最近记录</small>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+{% endblock %}

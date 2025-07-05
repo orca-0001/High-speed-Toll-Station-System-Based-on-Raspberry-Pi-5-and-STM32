@@ -1,0 +1,23 @@
+2025-06-17 12:30:03,669 - CarParkSystem - INFO - Starting Car Park System
+2025-06-17 12:30:03,669 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA0
+2025-06-17 12:30:03,671 - CarParkSystem - INFO - Connected to database successfully
+2025-06-17 12:30:03,812 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-17 12:30:05,673 - CarParkSystem - INFO - System initialized and ready
+2025-06-17 12:30:05,673 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-17 12:30:05,674 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-17 12:30:05,674 - CarParkSystem - INFO - Starting main system logic
+2025-06-17 12:30:47,262 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-17 12:30:50,072 - CarParkSystem - INFO - Plate 吉A·1F7L6: No match found
+2025-06-17 12:30:50,077 - CarParkSystem - INFO - Manual detection completed
+2025-06-17 12:31:02,166 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-17 12:31:03,297 - CarParkSystem - INFO - Plate 洁A·1F7L6: No match found
+2025-06-17 12:31:03,301 - CarParkSystem - INFO - Manual detection completed
+2025-06-17 12:31:06,715 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-17 12:31:08,085 - CarParkSystem - INFO - Plate 洁A·1F7L6: No match found
+2025-06-17 12:31:08,093 - CarParkSystem - INFO - Manual detection completed
+2025-06-17 12:31:11,901 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-17 12:31:13,190 - CarParkSystem - INFO - Plate 吉A·1F7L6: Exact match found
+2025-06-17 12:31:13,199 - CarParkSystem - INFO - Manual detection completed
+2025-06-17 12:32:06,516 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-17 12:32:07,357 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-17 12:32:07,367 - CarParkSystem - INFO - Manual detection completed

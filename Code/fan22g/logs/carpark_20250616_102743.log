@@ -1,0 +1,14 @@
+2025-06-16 10:27:45,279 - CarParkSystem - INFO - Starting Car Park System
+2025-06-16 10:27:45,383 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA0
+2025-06-16 10:27:45,397 - CarParkSystem - INFO - Connected to database successfully
+2025-06-16 10:27:45,542 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-16 10:27:47,398 - CarParkSystem - INFO - System initialized and ready
+2025-06-16 10:27:47,398 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-16 10:27:47,399 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-16 10:27:47,399 - CarParkSystem - INFO - Starting main system logic
+2025-06-16 10:31:42,522 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 10:31:46,055 - CarParkSystem - INFO - Plate 皖KR9888: No match found
+2025-06-16 10:31:46,059 - CarParkSystem - INFO - Manual detection completed
+2025-06-16 10:31:56,585 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-16 10:31:57,690 - CarParkSystem - INFO - Plate 沪KR9888: Exact match found
+2025-06-16 10:31:57,698 - CarParkSystem - INFO - Manual detection completed

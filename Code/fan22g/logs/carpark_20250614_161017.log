@@ -1,0 +1,36 @@
+2025-06-14 16:10:18,839 - CarParkSystem - INFO - Starting Car Park System
+2025-06-14 16:10:18,839 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA10
+2025-06-14 16:10:18,841 - CarParkSystem - INFO - Connected to database successfully
+2025-06-14 16:10:18,976 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-14 16:10:20,842 - CarParkSystem - INFO - System initialized and ready
+2025-06-14 16:10:20,842 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-14 16:10:20,843 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-14 16:10:20,843 - CarParkSystem - INFO - Starting main system logic
+2025-06-14 16:10:58,483 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:00,674 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-14 16:11:00,674 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:00,674 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:04,054 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:05,477 - CarParkSystem - INFO - Plate 晨T·15888: No match found
+2025-06-14 16:11:05,477 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:05,477 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:11,020 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:12,029 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-14 16:11:12,030 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:12,030 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:19,541 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:21,734 - CarParkSystem - INFO - Plate 沪KR9888: No match found
+2025-06-14 16:11:21,734 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:21,734 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:30,384 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:31,933 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-14 16:11:31,934 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:31,934 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:45,858 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:47,026 - CarParkSystem - INFO - Plate 15888: No match found
+2025-06-14 16:11:47,026 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:47,026 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 16:11:55,328 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 16:11:57,007 - CarParkSystem - INFO - Plate 浙G·00001: No match found
+2025-06-14 16:11:57,007 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 16:11:57,007 - CarParkSystem - INFO - Manual detection completed

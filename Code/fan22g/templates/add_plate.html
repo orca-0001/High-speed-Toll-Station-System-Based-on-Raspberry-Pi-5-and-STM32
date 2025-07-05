@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}添加车牌 - 智行高速系统{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card mt-3">
+            <div class="card-header bg-primary text-white">
+                <h4>添加新车牌</h4>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('add_plate') }}">
+                    <div class="mb-3">
+                        <label for="plate_number" class="form-label">车牌号码</label>
+                        <input type="text" class="form-control" id="plate_number" name="plate_number" 
+                               placeholder="输入车牌号（例如：汉字+ABC+123）" required autofocus>
+                        <div class="form-text">
+                            输入车牌号码无需空格。字母将自动转换为大写。
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between">
+                        <a href="{{ url_for('list_plates') }}" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> 返回列表
+                        </a>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-plus-circle"></i> 添加车牌
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+{% endblock %}

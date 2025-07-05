@@ -1,0 +1,74 @@
+2025-06-10 19:25:12,437 - CarParkSystem - CRITICAL - Fatal error: 'paddle.base.libpaddle.AnalysisConfig' object has no attribute 'set_mkldnn_cache_capacity'
+Traceback (most recent call last):
+  File "/home/pi/fan/main.py", line 248, in <module>
+    car_park_system = CarParkSystem()
+                      ^^^^^^^^^^^^^^^
+  File "/home/pi/fan/main.py", line 47, in __init__
+    self.ocr = OCRReader()
+               ^^^^^^^^^^^
+  File "/home/pi/fan/ocr_reader.py", line 8, in __init__
+    self.ocr=PaddleOCR(use_angle_cls=use_angle_cls,lang=lang)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddleocr/_pipelines/ocr.py", line 161, in __init__
+    super().__init__(**base_params)
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddleocr/_pipelines/base.py", line 63, in __init__
+    self.paddlex_pipeline = self._create_paddlex_pipeline()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddleocr/_pipelines/base.py", line 97, in _create_paddlex_pipeline
+    return create_pipeline(config=self._merged_paddlex_config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/__init__.py", line 165, in create_pipeline
+    pipeline = BasePipeline.get(pipeline_name)(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/utils/deps.py", line 195, in _wrapper
+    return old_init_func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/_parallel.py", line 103, in __init__
+    self._pipeline = self._create_internal_pipeline(config, self.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/_parallel.py", line 158, in _create_internal_pipeline
+    return self._pipeline_cls(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/ocr/pipeline.py", line 73, in __init__
+    self.doc_preprocessor_pipeline = self.create_pipeline(
+                                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/base.py", line 140, in create_pipeline
+    pipeline = create_pipeline(
+               ^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/__init__.py", line 165, in create_pipeline
+    pipeline = BasePipeline.get(pipeline_name)(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/utils/deps.py", line 195, in _wrapper
+    return old_init_func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/_parallel.py", line 103, in __init__
+    self._pipeline = self._create_internal_pipeline(config, self.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/_parallel.py", line 158, in _create_internal_pipeline
+    return self._pipeline_cls(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/doc_preprocessor/pipeline.py", line 67, in __init__
+    self.doc_ori_classify_model = self.create_model(doc_ori_classify_config)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/pipelines/base.py", line 107, in create_model
+    model = create_predictor(
+            ^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/__init__.py", line 77, in create_predictor
+    return BasePredictor.get(model_name)(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/image_classification/predictor.py", line 49, in __init__
+    self.preprocessors, self.infer, self.postprocessors = self._build()
+                                                          ^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/image_classification/predictor.py", line 82, in _build
+    infer = self.create_static_infer()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/base/predictor/base_predictor.py", line 240, in create_static_infer
+    return PaddleInfer(self.model_dir, self.MODEL_FILE_PREFIX, self._pp_option)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/common/static_infer.py", line 274, in __init__
+    self.predictor = self._create()
+                     ^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/paddlex/inference/models/common/static_infer.py", line 418, in _create
+    config.set_mkldnn_cache_capacity(-1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'paddle.base.libpaddle.AnalysisConfig' object has no attribute 'set_mkldnn_cache_capacity'

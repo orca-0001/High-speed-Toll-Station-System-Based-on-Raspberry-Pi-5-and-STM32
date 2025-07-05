@@ -1,0 +1,15 @@
+2025-06-11 20:42:04,771 - CarParkSystem - CRITICAL - Fatal error: View function mapping is overwriting an existing endpoint function: dashboard
+Traceback (most recent call last):
+  File "/home/pi/fan1/main.py", line 293, in <module>
+    from plate_manager_wui import app, set_car_park_system
+  File "/home/pi/fan1/plate_manager_wui.py", line 308, in <module>
+    @app.route("/dashboard")
+     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/miniconda3/envs/yolo/lib/python3.12/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: dashboard

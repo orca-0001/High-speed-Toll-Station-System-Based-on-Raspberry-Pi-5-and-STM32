@@ -1,0 +1,18 @@
+2025-06-18 19:55:12,661 - CarParkSystem - INFO - Starting Car Park System
+2025-06-18 19:55:12,661 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA0
+2025-06-18 19:55:12,663 - CarParkSystem - INFO - Connected to database successfully
+2025-06-18 19:55:12,803 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-18 19:55:14,666 - CarParkSystem - INFO - System initialized and ready
+2025-06-18 19:55:14,666 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-18 19:55:14,666 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-18 19:55:14,667 - CarParkSystem - INFO - Starting main system logic
+2025-06-18 19:55:26,177 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 19:55:28,644 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 19:55:33,353 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 19:55:34,589 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-18 19:57:17,308 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 19:57:19,731 - CarParkSystem - INFO - Plate 浙G·00001: Exact match found
+2025-06-18 19:57:36,054 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 19:57:37,839 - CarParkSystem - INFO - Plate 1600001: No match found
+2025-06-18 19:57:48,060 - CarParkSystem - INFO - Received from STM32: CAR_DETECTED
+2025-06-18 19:57:50,446 - CarParkSystem - INFO - Plate 浙G·00001: Exact match found

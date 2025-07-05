@@ -1,0 +1,8 @@
+2025-06-14 17:44:52,814 - CarParkSystem - INFO - Starting Car Park System
+2025-06-14 17:44:52,815 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA10
+2025-06-14 17:44:52,815 - CarParkSystem - INFO - Connected to database successfully
+2025-06-14 17:44:52,956 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-14 17:44:54,816 - CarParkSystem - INFO - System initialized and ready
+2025-06-14 17:44:54,816 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-14 17:44:54,817 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-14 17:44:54,817 - CarParkSystem - INFO - Starting main system logic

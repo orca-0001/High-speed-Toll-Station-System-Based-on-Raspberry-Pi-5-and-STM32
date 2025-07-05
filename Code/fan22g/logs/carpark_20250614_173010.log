@@ -1,0 +1,28 @@
+2025-06-14 17:30:11,684 - CarParkSystem - INFO - Starting Car Park System
+2025-06-14 17:30:11,685 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA10
+2025-06-14 17:30:11,686 - CarParkSystem - INFO - Connected to database successfully
+2025-06-14 17:30:11,824 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-14 17:30:13,687 - CarParkSystem - INFO - System initialized and ready
+2025-06-14 17:30:13,687 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-14 17:30:13,688 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-14 17:30:13,688 - CarParkSystem - INFO - Starting main system logic
+2025-06-14 17:30:42,560 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:30:45,026 - CarParkSystem - INFO - Plate KER9888: No match found
+2025-06-14 17:30:45,026 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 17:30:45,026 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:30:51,816 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:30:53,081 - CarParkSystem - INFO - Plate EKR988B: No match found
+2025-06-14 17:30:53,081 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 17:30:53,082 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:31:07,006 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:31:08,246 - CarParkSystem - INFO - Plate FKR9888: No match found
+2025-06-14 17:31:08,246 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 17:31:08,246 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:31:14,302 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:31:15,265 - CarParkSystem - WARNING - No license plate detected in the image
+2025-06-14 17:31:15,266 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 17:31:15,266 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:31:19,541 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:31:20,792 - CarParkSystem - INFO - Plate 沪KR9888: No match found
+2025-06-14 17:31:20,792 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 17:31:20,792 - CarParkSystem - INFO - Manual detection completed

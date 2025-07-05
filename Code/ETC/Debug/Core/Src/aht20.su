@@ -1,0 +1,6 @@
+../Core/Src/aht20.c:38:6:AHT20_Send	24	static
+../Core/Src/aht20.c:49:6:AHT20_Receive	24	static
+../Core/Src/aht20.c:56:6:AHT20_Init	16	static
+../Core/Src/aht20.c:70:6:AHT20_Measure	40	static
+../Core/Src/aht20.c:94:7:AHT20_Temperature	4	static
+../Core/Src/aht20.c:101:7:AHT20_Humidity	4	static

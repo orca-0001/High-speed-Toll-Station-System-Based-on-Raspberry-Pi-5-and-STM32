@@ -1,0 +1,12 @@
+2025-06-14 15:37:37,776 - CarParkSystem - INFO - Starting Car Park System
+2025-06-14 15:37:37,776 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA10
+2025-06-14 15:37:37,791 - CarParkSystem - INFO - Connected to database successfully
+2025-06-14 15:37:37,941 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-14 15:37:39,792 - CarParkSystem - INFO - System initialized and ready
+2025-06-14 15:37:39,792 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-14 15:37:39,793 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-14 15:37:39,793 - CarParkSystem - INFO - Starting main system logic
+2025-06-14 15:38:41,454 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 15:38:45,889 - CarParkSystem - INFO - Plate 沪KR9888: No match found
+2025-06-14 15:38:45,889 - CarParkSystem - ERROR - 记录日志错误: no such table: movement_log
+2025-06-14 15:38:45,889 - CarParkSystem - INFO - Manual detection completed

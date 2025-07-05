@@ -1,0 +1,33 @@
+2025-06-14 17:31:50,208 - CarParkSystem - INFO - Starting Car Park System
+2025-06-14 17:31:50,208 - CarParkSystem - INFO - Connected to STM32 on /dev/ttyAMA10
+2025-06-14 17:31:50,209 - CarParkSystem - WARNING - Plates table not found in database. Creating it.
+2025-06-14 17:31:50,225 - CarParkSystem - INFO - Connected to database successfully
+2025-06-14 17:31:50,364 - CarParkSystem - INFO - Camera initialized successfully
+2025-06-14 17:31:52,226 - CarParkSystem - INFO - System initialized and ready
+2025-06-14 17:31:52,226 - CarParkSystem - INFO - Car park system instance set in web interface
+2025-06-14 17:31:52,227 - CarParkSystem - INFO - Web server started on http://0.0.0.0:5000
+2025-06-14 17:31:52,227 - CarParkSystem - INFO - Starting main system logic
+2025-06-14 17:34:00,490 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:34:02,994 - CarParkSystem - INFO - Plate PKR9888: No match found
+2025-06-14 17:34:03,001 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:34:05,524 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:34:06,863 - CarParkSystem - INFO - Plate FKR9888: No match found
+2025-06-14 17:34:06,871 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:34:11,869 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:34:13,213 - CarParkSystem - INFO - Plate KR9888: No match found
+2025-06-14 17:34:13,221 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:34:17,715 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:34:19,003 - CarParkSystem - INFO - Plate 沪K·R9888: Cleaned match found (沪KR9888)
+2025-06-14 17:34:19,010 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:36:08,520 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:36:10,208 - CarParkSystem - INFO - Plate 冀T·15888: No match found
+2025-06-14 17:36:10,216 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:36:21,157 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:36:22,466 - CarParkSystem - INFO - Plate 浙G·00001: No match found
+2025-06-14 17:36:22,474 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:36:28,700 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:36:30,656 - CarParkSystem - INFO - Plate 浙G·00001: No match found
+2025-06-14 17:36:30,665 - CarParkSystem - INFO - Manual detection completed
+2025-06-14 17:36:36,735 - CarParkSystem - INFO - Manually triggering plate detection
+2025-06-14 17:36:38,008 - CarParkSystem - INFO - Plate 桂C·GT009: No match found
+2025-06-14 17:36:38,012 - CarParkSystem - INFO - Manual detection completed

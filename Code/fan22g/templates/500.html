@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}服务器错误 - 智行高速系统{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center text-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="mt-5">
+            <h1 class="display-1">500</h1>
+            <h2 class="mb-4">服务器错误</h2>
+            <p class="lead mb-4">服务器发生错误，管理员已收到通知。</p>
+            <a href="{{ url_for('index') }}" class="btn btn-primary">
+                <i class="bi bi-house-door"></i> 返回首页
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+{% endblock %}
