@@ -1,5 +1,5 @@
 # 智行高速——基于树莓派5和STM32的高速路口智能收费站系统
-作者：范财天
+作者：范财天，张启成
 
 # 该项目是参考Lan Huong作者的开源项目制作的，链接如下
 https://github.com/l4hu/Car-Park-License-Plate-Recognition-System
